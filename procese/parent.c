@@ -9,43 +9,45 @@ apoi se încheie la rândul sau*/
 
 //parinte-fiu-nepot
 int main(){
-int fiu, fiu2, p[2], status=0;
+int pid, fiu2, p[2], status=0;
 pipe(p);
 
-fiu=fork();
-if(fiu==0){
-	printf("fiu are pid=%d, parintele are pid=%d",getpid(),getppid());
+pid=fork();
+if(pid==0){
+	printf("[f pid=%d, p pid=%d]",getpid(),getppid());
 	close(p[0]);
 	int k=0;
 	char* s=(char*)malloc(10);
 	for(int i=0; i<10; i++)	{
-		sprintf(s,"%d",i);
-		write(p[1],s,1);
+		sprintf(s,"%d ",i);
+		write(p[1],s,2);
 		sleep(1);
 	}
 	status=1;
 	exit(0);
+} else {
+    fiu2=fork();
+    if(fiu2==0){
+    	printf("[f2 pid=%d, p pid=%d]",getpid(),getppid());
+    	close(p[0]);
+    	int k=0;
+    	char* s=(char*)malloc(10);
+    	for(int i=10; i<20; i++){
+    		sprintf(s,"%d ",i);
+    		write(p[1],s,3);
+    		sleep(1);
+    	}
+	exit(0);
+    }
 }
 
-fiu2=fork();
-if(fiu2==0){
-	printf("fiu2 are pid=%d, parintele are pid=%d",getpid(),getppid());
-	close(p[0]);
-	int k=0;
-	char* s=(char*)malloc(10);
-	for(int i=10; i<20; i++){
-		sprintf(s,"%d",i);
-		write(p[1],s,1);
-		sleep(1);
-	}
-	exit(0);
-}
+
 
 close(p[1]);
 char* c;
 c=(char*)malloc(10);
 while(read(p[0], c, 1)==1){
-	write(1,c,1);
+	write(1,c,3);
 	sleep(1);
 }
 
