@@ -146,3 +146,25 @@
 		Chang fen (RICE noodles, VARIOUS MEATS/SEAFOOD)
 		Wonton noodles (SOUP, EGG, SEAFOOD, CHICKEN)
 		Char Kway Teow (RICE NOODLES, EGG NOODLES, STIR-FRIED, SAUSAGES, SEAFOOD)
+
+8.New York City (plain, exit to the ocean: YES, USA, North America-West)
+	a.Local Attractions
+		Statue of Liberty (STRUCTURE)
+		Central PARK
+		Rockefeller Center (SHOpPING COMPLEX)
+		Metropolitan MUSEUM of ART
+		Broadway ( SHOW)
+		Empire State Building (STRUCTURE)
+		9/11 MEMORIAL and MUSEUM
+		High Line (PARK)
+		Times Square (SOMETHING...you can see screens)
+		Brooklyn Bridge (STRUCTURE)
+	b.Food/Drinks
+		
+		
+		
+		
+		
+		
+		
+		
