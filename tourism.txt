@@ -1,4 +1,4 @@
-1.Hong Kong(peninsula, island, Hong Kong, Asia-East) - http://www.discoverhongkong.com
+1.Hong Kong(peninsula, island, exit to the ocean: YES, Hong Kong, Asia-East) - http://www.discoverhongkong.com
 	a.Local Attractions
 		The PEAK
 		Tsim Sha Tsui Promenade (WATERFRONT)
@@ -14,10 +14,10 @@
 		Hong Kong-style Milk Tea
 		Red bean soup, Tofu pudding, Tongyuen (DESSERTS)
 		Pineapple bun (SNACK)
-		Faux Shark’s Fin SOUP
+		Faux Sharkâ€™s Fin SOUP
 		Fish balls (SEAFOOD, SNACK, SPICY)
 
-2.Singapore (island, Singapore, Asia-South) - https://www.thebestsingapore.com/singapore-travel-guide/
+2.Singapore (island, exit to the ocean: YES, Singapore, Asia-South) - https://www.thebestsingapore.com/singapore-travel-guide/
 	a.Local attractions
 		Marina Bay WATERFRONT
 		Orchard road the FASHION street of singapore
@@ -30,15 +30,15 @@
 		Clarke quay club (NIGHTLIFE attraction)
 		Sentosa ISLAND
 	b.Food
-		chilli crab (SEAFOOD, stir-fried, crab is coated with sweet, savoury and SPICY tomato based sauce)
 		chicken rice (CHICKEN)
-		kaya toast (toasted bread with butter and kaya, a jam made from eggs, sugar, coconut milk and pandan leaves)
-		bak kut teh (soup, PORK ribs, thick witch herbal taste / clear with spicy taste)
-		satay (grilled MEAT, sliced cucumbers, sliced onions, pressed rice cakes, served with thick, sweet, and SPICY peanut sauce)
+		bak kut teh (SOUP, PORK ribs, HERBAL/SPICY)
+		satay (grilled MEAT, SWEET, SPICY)
 		frog porridge (frog MEAT)
-		Char Kway Teow (rice noodles and egg noodles which will be commonly stir-fried with eggs, cockles, chinese SAUSAGES, bean sprouts, and Chinese chives)
+		Char Kway Teow (RICE NOODLES, EGG NOODLES, STIR-FRIED, SAUSAGES, SEAFOOD)
+		chilli crab (SEAFOOD,SPICY)
+		kaya toast (TOAST, EGGS, SUGAR)
 
-3.Bangkok (plain, Thailand, Asia-South)
+3.Bangkok (plain, exit to the ocean: YES, Thailand, Asia-South)
 	a.Local Attractions
 		Wat Phra Kaeo (houses the Jade Buddha)
 		Wat Pho (TEMPLE)
@@ -51,16 +51,16 @@
 		Terminal 21 (MALL)
 	b. Food
 		Pad Thai (Thai Style Fried Noodles, SHRIMP or CHICKEN)
-		Guay Teow (Noodle SOUP)
-		Tom Yum Goong (Spicy Shrimp SOUP)
-		Tom Kha Gai (Chicken in Coconut SOUP)
 		Som Tam (SPICY Green Papaya SALAD)
 		Yam Pla Dook Foo (Fried CATFISH with Green Mango SALAD)
 		Yam Talay (SPICY SEAFOOD SALAD)
 		Laab (SPICY SALAD)
+		Tom Yum Goong (Spicy Shrimp SOUP)
+		Tom Kha Gai (Chicken in Coconut SOUP)
+		Guay Teow (Noodle SOUP)
 		Pad Phuk Tong (Stir-Fried Pumpkin)
 
-4.London (plain, UK, Europe-West)
+4.London (plain, exit to the ocean: NO, UK, Europe-West)
 	a.Local Attractions
 		Buckingham Palace (STRUCTURE)
 		The Tower of London and Tower Bridge (STRUCTURE)
@@ -74,20 +74,75 @@
 		Hyde PARK
 		Royal Botanic GARDENS
 	b. Food/drink
-		Duck & Waffle (DESSERT)
-		Custard donut (DESSERT)
+		Soy CHICKEN wings
 		BEEF ribs & bone marrow mash
 		Crab donuts (SEAFOOD)
-		Soy CHICKEN wings
 		EGGS Benedict
 		Avocado TOAST
+		Custard donut (DESSERT)
+		Duck & Waffle (DESSERT)
 
-5. 
-		
-		
-		
-		
-		
-		
-		
-		
+5.Macau (peninsula, island, exit to the ocean: YES, Macau, Asia-East)
+	a.Local Attractions
+		Ruins of the CHURCH of St. Paul
+		Largo do Senado or the Senate Square (STRUCTURE)
+		A-ma TEMPLE
+		The Macau TOWER
+		Kun Iam TEMPLE
+		Cotai Strip and CASINOS
+		The House of Dancing Waters (SPECTACLE/SHOW)
+		Hop On Hop Off Macau Bus (TOUR)
+	b.Food/Drink
+		PORK chop bun
+		PORK lard
+		EGG rolls
+		Portuguese SEAFOOD RICE
+		Almond cookies and sweet pork jerky (SNACKS)
+		Portuguese EGG tart (DESSERT)
+		Serradura (DESSERT)
+		Prawn tartar (DESSERT)
+		Black garlic CHOCOLATE (DESSERT)
+
+6.Kuala Lumpur (plain, mountains, exit to the ocean: NO, Malaysia, Asia-South)
+	a. Local Attractions
+		Kuala Lumpur City Gallery (MUSEUM)
+		The KLCC Park (SHOPPING COMPLEX)
+		Petronas Twin Towers (STRUCTURE)
+		Bukit Bintang (SHOPPING COMPLEX)
+		Masjid Negara (MOSQUE)
+		Orchid GARDEN
+		Chinatown
+		Kasturi Walk (SOUVENIRS)
+		Batu Caves
+	b.Food/drink
+		nasi lemak (fried CHICKEN)
+		banaa leaf RICE (fried CHiCKEN)
+		roti canai (MEAT, EGGS, CHEESE)
+		Ramly BURGER
+		char siew( barbecued PORK)
+		ikan bakar (grilled FISH)
+		hokkien mee (NOODLES)
+		brow suger appam (DESSERT)
+		cendol (DESSERT)
+
+7.Shenzhen (plain, mountains, exit to the ocean: YES, China, Asia-East)
+	a.Local Attractions
+		Sea World
+		Nanhai E-Cool (PARK, SHOPPING)
+		Tien Hou TEMPLE
+		Nanshan MOUNTAIN
+		Window of the World (THEME PARK)
+		Happy Valley (THEME PARK)
+		Splendid China Folk Village (HISTORICAL PARK)
+		OCT Loft & O-CAT (ART)
+		HeXiangning ART Gallery
+		Shenzhen MUSEUM
+		Mangrove Seashore Ecology PARK
+		Coco Park (MALL)
+	b.Food/Drink
+		Cantonese Congee (SOUP, RICE)
+		Plain CHICKEN
+		Dim sum (various DESSERTS)
+		Chang fen (RICE noodles, VARIOUS MEATS/SEAFOOD)
+		Wonton noodles (SOUP, EGG, SEAFOOD, CHICKEN)
+		Char Kway Teow (RICE NOODLES, EGG NOODLES, STIR-FRIED, SAUSAGES, SEAFOOD)
