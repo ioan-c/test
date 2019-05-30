@@ -1,0 +1,48 @@
+package main;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		MiniTest miniTest = new MiniTest();
+		
+		miniTest.display();
+		
+		int attempts = 0;
+	    boolean ok = false;
+	    do{
+	        try{
+	        	miniTest.display();
+	            ok=true;
+	        } catch (InputMismatchException ex){
+	            attempts++;
+	            ex.printStackTrace();
+	            System.out.println("Please enter an integer value!");
+	        }
+	    } while (!ok || attempts<5);
+	    /*if ( attempts >= 5 ){ 
+	        throw new RuntimeException(e);
+	    }*/
+	}
+	
+
+}
+
+class MiniTest{
+	Scanner systemIn = new Scanner(System.in);
+    
+	public void display() throws InputMismatchException{
+			int inputT = systemIn.nextInt();
+			System.out.println("Int received: "+inputT);
+			display();
+			if(systemIn != null){
+	        	 systemIn.close();
+			}
+         
+	} 
+}
+
+
+https://softwareengineering.stackexchange.com/questions/310434/exception-treatment-with-without-recursion
