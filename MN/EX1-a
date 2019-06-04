@@ -1,0 +1,44 @@
+Metoda multipas (indirecta) explicita: AB
+ABm (AB1, AB2, AB3); 
+AB1 => m=1, AB2 => m=2, AB3 => m=3
+
+1.VARIABILE GLOBALE
+	ordin1: 		kp tp u
+	ordin1sin: 	kp tp alfa omega
+	ordin2: 		kp tp zeta u
+	2poli1zero:	kp t1 t2 t3 u
+	2poli:		kp t1 t2 u
+
+2.VALORI INITIALE
+	ordin1: 		t(1)=t0		y(1)=y0 	uc(1)=u		tc=t0
+
+	ordin1sin: 	t(1)=t0 		y(1)=y0 	uc(1)=0		tc=t0
+
+	ordin2: 		t(1)=t0		y(1,1)=y10	uc(1)=u		tc=t0
+					y(1,2)=y20
+
+	2poli1zero: 	t(1)=t0		y(1,1)=y10	uc(1)=u		tc=t0
+					y(1,2)=y20
+
+3. Avem nevoie de m+1 valori anterioare
+     Valoarea ycm+1 este cea mai veche si porneste de la conditiile initiale (mom 0)
+	
+	AB1 => m=1 => yc2 porneste de la conditiile intitiale
+	AB2 => m=2 => yc3
+	AB3 => m=3 => yc4
+
+	ordin1/ordin1sin: 
+AB1: yc2 = y0
+AB2: yc3 = y0
+AB3: yc4 = y0
+
+ordin2/2poli1zero:
+AB1: yc2 = [y10 y20]
+AB2: yc3 = [y10 y20]
+AB3: yc4 = [y10 y20]
+
+4. Calculam m valori, de la yc1 pana la ycm prin RK, pe rand
+	AB1: yc1 din yc2 prin RK -> urmatorul moment de timp
+	AB2: yc2 din yc3 -> urmatorul moment de timp -> yc1 din yc2 -> urmatorul moment de timo
+	AB3: yc3 din yc4 -> yc2 din yc3 -> yc1 din yc2
+	
